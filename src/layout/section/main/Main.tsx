@@ -1,6 +1,7 @@
 import { styled } from "styled-components";
-import background from "../../../components/image/bgc.png"
+import background from "../../../components/image/bgc-min.webp"
 import { Icon } from "../../../components/icon/Icon";
+import { Theme } from "../../../styles/Theme";
 
 
 
@@ -8,14 +9,14 @@ export const Main = () => {
 
     return(
         <StyledMain>
-            <Title>Салон красоты «Delote-Beauty» на Крестовском</Title>
+            <Title>Салон красоты 
+                «Delote-Beauty» 
+                на Крестовском</Title>
              
                <Scroll>
                <Icon iconId="scroll" width="20" height="30" viewBox="0 0 20 30"/>
                 <span>Прокрутите вниз</span>
-                
                </Scroll>
-
         </StyledMain>
 
 
@@ -23,35 +24,44 @@ export const Main = () => {
 };
 
 const StyledMain = styled.section`
-min-height: 100vh;
-min-width: 1440px;
-width: 100%;
-display: flex;
-
+/* display: flex; */
+height: 1040px;
 background-image: url(${background});
-background-size: contain;
-background-repeat: no-repeat;
-    
+background-size:cover;
+background-position: center center;
+background-repeat: no-repeat; 
+background-attachment: fixed;  
 `
 
 const Title = styled.h1`
-position: absolute;
+
+margin: 0 auto;
+margin-top: 360px;
+max-width: 540px;
+
+
+color: ${Theme.colors.font};
 text-align: center;
-margin: 0 auto; 
-    color: white;
-    font-size: 72px;
-    font-weight: 700;
-    top:25%;
+font-family: Garamond, sans-serif;
+font-size: 72px;
+font-weight: 700;
+line-height: 120%;
   
 `
 
 const Scroll = styled.div`
-    color: white;
-    position: absolute;
-   bottom: 77px;
-   left:50%;
-
+z-index: 1;
+position: sticky;
+display: flex;
+justify-content: center;
+margin-top:260px;
    span {
-    margin-bottom:20px;
+  
+    color: ${Theme.colors.font};
+font-family: "Cormorant Garamond", sans-serif;
+font-size: 18px;
+line-height: 140%;
+margin-left :20px ;
+text-align: center;
    }
 `

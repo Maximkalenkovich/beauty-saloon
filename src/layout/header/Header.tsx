@@ -1,6 +1,11 @@
 import styled from "styled-components"
 import { Icon } from "../../components/icon/Icon"
 import { Menu } from "./Menu"
+import { FlexWrapper } from "../../components/flexWrapper/FlexWrapper"
+import { Container } from "../../components/container/Container"
+import { Theme } from "../../styles/Theme"
+
+
 
 
 
@@ -9,13 +14,13 @@ const items = ["Главная","Мастера","Косметика","Акци�
 export const Header = ()=>{
     return(
       <StyledHeader>
-            <Icon iconId="instagram" /> 
-            <div>
-            <Icon  iconId="center" width="40" height="40" viewBox="0 0 40 40" /> 
-            </div>
-            <Menu menuItmes={items}/>
 
-            
+     <Container>
+      <FlexWrapper  align="center">
+            <Icon iconId="instagram"  width="26" height="26" viewBox="0 0 26 26" /> 
+            <Menu menuItmes={items}/>
+            </FlexWrapper>
+            </Container>
       </StyledHeader>
     )
 }
@@ -23,19 +28,24 @@ export const Header = ()=>{
 // иконку можно добавить в бэк навигации
 
 const StyledHeader = styled.header`
-display: flex;
-/* background-color: black; */
-min-width: 1440px;
-width: 100%;
-position: fixed;
-flex-wrap: wrap;
 
-div{
+padding: 20px 0;
+  list-style: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99999;
 
-
-    position: absolute;
-    z-index: 0;
-    left:45%;
-
+${Container}{
+  border-bottom: 1px solid ${Theme.colors.accent};
+  padding-bottom: 38px;
 }
+
+
+
+
+  
+
+
 `

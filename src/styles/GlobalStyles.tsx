@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+import { Theme } from "./Theme";
 
 
 
@@ -15,21 +16,35 @@ export const GlobalStyles = createGlobalStyle`
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: "Cormorant Garamond "-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+    background-color: ${Theme.colors.primaryBg};
+}
 
-list-style: none;
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-    
-    
+
+
+section{
+  padding-top: 5px;
+  padding-bottom: 2px;
+  min-height: 100%;
+overflow: hidden;
+}
+   
 `
 
 
