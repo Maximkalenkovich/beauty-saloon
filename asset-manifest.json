@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/beauty-saloon/static/css/main.31d6cfe0.css",
+    "main.js": "/beauty-saloon/static/js/main.6baf337b.js",
+    "static/js/787.9e85d242.chunk.js": "/beauty-saloon/static/js/787.9e85d242.chunk.js",
+    "static/media/work-7.webp": "/beauty-saloon/static/media/work-7.45af656746bfffcbc133.webp",
+    "static/media/work-1.webp": "/beauty-saloon/static/media/work-1.8e0a943987f2af8a3842.webp",
+    "static/media/work-9.webp": "/beauty-saloon/static/media/work-9.d9a42a3c444d619e8837.webp",
+    "static/media/work-8.webp": "/beauty-saloon/static/media/work-8.93051ea162eff65ad57e.webp",
+    "static/media/visaj.jpg": "/beauty-saloon/static/media/visaj.afc4762116ddaef51353.jpg",
+    "static/media/work-5.webp": "/beauty-saloon/static/media/work-5.2f5266345a21d793bfb6.webp",
+    "static/media/work-2.webp": "/beauty-saloon/static/media/work-2.0c750903958861f351f2.webp",
+    "static/media/work-3.webp": "/beauty-saloon/static/media/work-3.0f79f601ae10f95c7e12.webp",
+    "static/media/pedikur.jpg": "/beauty-saloon/static/media/pedikur.0a78a18e5546f4732eb4.jpg",
+    "static/media/cosmetology.jpg": "/beauty-saloon/static/media/cosmetology.d80c20743a3822577add.jpg",
+    "static/media/work-4.webp": "/beauty-saloon/static/media/work-4.cb7faa3c4753b9dac875.webp",
+    "static/media/barber.jpg": "/beauty-saloon/static/media/barber.04d523b97c60a362ac4e.jpg",
+    "static/media/estetic.jpg": "/beauty-saloon/static/media/estetic.375a698d9b0b12eba42f.jpg",
+    "static/media/manikur.jpg": "/beauty-saloon/static/media/manikur.ef8e664d00445c3e1ae1.jpg",
+    "static/media/icon-sprie.svg": "/beauty-saloon/static/media/icon-sprie.90cc1fb1321ce6f2c7d6fdacebc1978d.svg",
+    "static/media/bgc-min.webp": "/beauty-saloon/static/media/bgc-min.5d97c0412da0660e14cd.webp",
+    "static/media/work-6.webp": "/beauty-saloon/static/media/work-6.a4fa0aa327ea9bd4d88a.webp",
+    "static/media/backroundNav.svg": "/beauty-saloon/static/media/backroundNav.471fe7fa539b07f2426b7f1ab7fca597.svg",
+    "index.html": "/beauty-saloon/index.html",
+    "main.6baf337b.js.map": "/beauty-saloon/static/js/main.6baf337b.js.map",
+    "787.9e85d242.chunk.js.map": "/beauty-saloon/static/js/787.9e85d242.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.6baf337b.js"
+  ]
+}
