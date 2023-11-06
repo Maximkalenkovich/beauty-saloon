@@ -85,6 +85,7 @@ const FooterContacts = styled.div`
 const Contact = styled.div`
 display: flex;
 flex-direction: column;
+
     
 `
 const Time = styled.div`
