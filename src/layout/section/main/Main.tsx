@@ -5,8 +5,9 @@ import { Theme } from "../../../styles/Theme";
 
 
 
-export const Main = () => {
 
+export const Main = () => {
+    
     return(
         <StyledMain>
             <Title>Салон красоты 
@@ -15,7 +16,7 @@ export const Main = () => {
              
                <Scroll>
                <Icon iconId="scroll" width="20" height="30" viewBox="0 0 20 30"/>
-                <span>Прокрутите вниз</span>
+                <a href="#Contact">Прокрутите вниз</a>
                </Scroll>
         </StyledMain>
 
@@ -55,7 +56,8 @@ position: sticky;
 display: flex;
 justify-content: center;
 margin-top:260px;
-   span {
+
+   a {
   
     color: ${Theme.colors.font};
 font-family: "Cormorant Garamond", sans-serif;
@@ -63,5 +65,7 @@ font-size: 18px;
 line-height: 140%;
 margin-left :20px ;
 text-align: center;
+scroll-behavior: smooth;
+
    }
 `
