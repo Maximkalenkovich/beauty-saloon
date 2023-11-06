@@ -4,9 +4,6 @@ import backroundNav from "../../components/image/backroundNav.svg"
 
 
 
-type StyledMenuPropsType = {
-    Image: string;
-}
 
 
 export const Menu = (props:{menuItmes: Array<string>}) =>{
@@ -17,8 +14,7 @@ export const Menu = (props:{menuItmes: Array<string>}) =>{
                          return(
 
                          <ListItem key={index}>
-                            <LinkItem href="../section/masterts/Masters.tsx" target="_blank">{item}</LinkItem>
-                            
+                            <LinkItem href="../section/masterts/Masters.tsx" target="_blank">{item}</LinkItem>         
                             </ListItem>
                             
                             )
@@ -48,10 +44,14 @@ ul{
     gap:80px; 
     left: 140px ;
     right: 113px;
-
-
-
 } 
+
+@media screen and (max-width: 1299px){
+    display:none ;
+
+}
+
+
 `
 const ListItem = styled.li`
 

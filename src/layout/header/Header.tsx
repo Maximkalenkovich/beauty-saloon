@@ -4,6 +4,7 @@ import { Menu } from "./Menu"
 import { FlexWrapper } from "../../components/flexWrapper/FlexWrapper"
 import { Container } from "../../components/container/Container"
 import { Theme } from "../../styles/Theme"
+import { MobileMenu } from "./MobileMenu"
 
 
 
@@ -16,9 +17,10 @@ export const Header = ()=>{
       <StyledHeader>
 
      <Container>
-      <FlexWrapper  align="center">
+      <FlexWrapper align="center">
             <Icon iconId="instagram"  width="26" height="26" viewBox="0 0 26 26" /> 
             <Menu menuItmes={items}/>
+            <MobileMenu menuItmes={items} /> 
             </FlexWrapper>
             </Container>
       </StyledHeader>
