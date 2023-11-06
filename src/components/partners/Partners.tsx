@@ -1,6 +1,8 @@
 import { styled } from "styled-components";
 import { Icon } from "../icon/Icon"
 import { Container } from "../container/Container";
+import { Theme } from "../../styles/Theme";
+
 
 
 
@@ -27,7 +29,15 @@ margin-top: 157px;
 ${Container}{
     display: flex;
 justify-content: space-around;
+
+@media ${Theme.media.mobile}{
+display: flex;
+flex-wrap: wrap;
+gap:40px;
+}
 } 
+
+
 
     
 `
