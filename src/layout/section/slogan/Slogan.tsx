@@ -1,6 +1,8 @@
 import styled from "styled-components";
 import { Icon } from "../../../components/icon/Icon";
 import { Theme } from "../../../styles/Theme";
+import { font } from '../../../styles/Common';
+
 
 export const Slogan = () => {
     return (
@@ -24,6 +26,16 @@ export const Slogan = () => {
 
 const StyledSlogan = styled.section`
 margin-top: 120px;
+
+@media ${Theme.media.mobile}{
+margin: 0 15px 015px;
+
+}
+
+@media ${Theme.media.tablet}{
+margin: 0 15px 015px;
+
+}
 `
 
 const SloganBlock = styled.div`
@@ -33,13 +45,12 @@ text-align: center;
 `
 
 const TextSlogan = styled.p`
-color: ${Theme.colors.font};
+
+${font({family: "Cormorant Garamond",weight:700, color: Theme.colors.font, Fmax: 27, Fmin:20})}
 max-width: 856px;
 margin: 0 auto;
 margin-top: 60px;
-font-family: "Cormorant Garamond";
-font-size: 27px;
-font-weight: 700;
+/* font-size: 27px; */
 line-height: 130%;
     
 `

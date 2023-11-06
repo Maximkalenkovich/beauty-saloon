@@ -2,6 +2,7 @@ import { styled } from "styled-components";
 import background from "../../../components/image/bgc-min.webp"
 import { Icon } from "../../../components/icon/Icon";
 import { Theme } from "../../../styles/Theme";
+import { font } from "../../../styles/Common";
 
 
 
@@ -35,17 +36,12 @@ background-attachment: fixed;
 `
 
 const Title = styled.h1`
-
+${font({family: "Garamond, sans-serif",weight: 700, Fmax: 72, Fmin: 52  })}
 margin: 0 auto;
 margin-top: 360px;
 max-width: 540px;
-
-
 color: ${Theme.colors.font};
 text-align: center;
-font-family: Garamond, sans-serif;
-font-size: 72px;
-font-weight: 700;
 line-height: 120%;
   
 `

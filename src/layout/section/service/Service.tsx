@@ -5,9 +5,9 @@ import pedikur from "../../../components/image/serviceimage/pedikur.jpg"
 import cosmetology from "../../../components/image/serviceimage/cosmetology.jpg"
 import estetic from "../../../components/image/serviceimage/estetic.jpg"
 import visaj from "../../../components/image/serviceimage/visaj.jpg"
-import { Partners } from "../../../components/partners/Partners";
 import { Container } from "../../../components/container/Container";
 import { Theme } from "../../../styles/Theme";
+
 
 
 export const Service = () => {
@@ -52,7 +52,13 @@ ${Container}{
 
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+
+  gap:24px;
 }
+
 
 `
 const Sphere = styled.div`
