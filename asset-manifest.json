@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/beauty-saloon/static/css/main.31d6cfe0.css",
-    "main.js": "/beauty-saloon/static/js/main.6baf337b.js",
+    "main.js": "/beauty-saloon/static/js/main.ac91caa0.js",
     "static/js/787.9e85d242.chunk.js": "/beauty-saloon/static/js/787.9e85d242.chunk.js",
     "static/media/work-7.webp": "/beauty-saloon/static/media/work-7.45af656746bfffcbc133.webp",
     "static/media/work-1.webp": "/beauty-saloon/static/media/work-1.8e0a943987f2af8a3842.webp",
@@ -22,11 +22,11 @@
     "static/media/work-6.webp": "/beauty-saloon/static/media/work-6.a4fa0aa327ea9bd4d88a.webp",
     "static/media/backroundNav.svg": "/beauty-saloon/static/media/backroundNav.471fe7fa539b07f2426b7f1ab7fca597.svg",
     "index.html": "/beauty-saloon/index.html",
-    "main.6baf337b.js.map": "/beauty-saloon/static/js/main.6baf337b.js.map",
+    "main.ac91caa0.js.map": "/beauty-saloon/static/js/main.ac91caa0.js.map",
     "787.9e85d242.chunk.js.map": "/beauty-saloon/static/js/787.9e85d242.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.31d6cfe0.css",
-    "static/js/main.6baf337b.js"
+    "static/js/main.ac91caa0.js"
   ]
 }
